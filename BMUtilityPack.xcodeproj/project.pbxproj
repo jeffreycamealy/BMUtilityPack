@@ -24,8 +24,8 @@
 		001AF3E016824952007CFF78 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 001AF3DB16824952007CFF78 /* Default.png */; };
 		001AF3E116824952007CFF78 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001AF3DC16824952007CFF78 /* Default@2x.png */; };
 		001AF3E216824952007CFF78 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001AF3DC16824952007CFF78 /* Default@2x.png */; };
-		001AF3E5168249DB007CFF78 /* BMSelectorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AF3E4168249DB007CFF78 /* BMSelectorButton.m */; };
-		001AF3E6168249DB007CFF78 /* BMSelectorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AF3E4168249DB007CFF78 /* BMSelectorButton.m */; };
+		001AF3EC16824A8C007CFF78 /* BMSelectorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AF3EB16824A8C007CFF78 /* BMSelectorButton.m */; };
+		001AF3ED16824A8C007CFF78 /* BMSelectorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AF3EB16824A8C007CFF78 /* BMSelectorButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,8 @@
 		001AF3DA16824952007CFF78 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		001AF3DB16824952007CFF78 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		001AF3DC16824952007CFF78 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		001AF3E3168249DB007CFF78 /* BMSelectorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMSelectorButton.h; path = Utilities/BMSelectorButton.h; sourceTree = "<group>"; };
-		001AF3E4168249DB007CFF78 /* BMSelectorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMSelectorButton.m; path = Utilities/BMSelectorButton.m; sourceTree = "<group>"; };
+		001AF3EA16824A8C007CFF78 /* BMSelectorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMSelectorButton.h; path = Utilities/BMSelectorButton/BMSelectorButton.h; sourceTree = "<group>"; };
+		001AF3EB16824A8C007CFF78 /* BMSelectorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMSelectorButton.m; path = Utilities/BMSelectorButton/BMSelectorButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,8 +160,8 @@
 		001AF3E7168249DE007CFF78 /* BMSelectorButton */ = {
 			isa = PBXGroup;
 			children = (
-				001AF3E3168249DB007CFF78 /* BMSelectorButton.h */,
-				001AF3E4168249DB007CFF78 /* BMSelectorButton.m */,
+				001AF3EA16824A8C007CFF78 /* BMSelectorButton.h */,
+				001AF3EB16824A8C007CFF78 /* BMSelectorButton.m */,
 			);
 			name = BMSelectorButton;
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 			files = (
 				001AF39A16822D74007CFF78 /* main.m in Sources */,
 				001AF3D4168248F2007CFF78 /* AppDelegate.m in Sources */,
-				001AF3E5168249DB007CFF78 /* BMSelectorButton.m in Sources */,
+				001AF3EC16824A8C007CFF78 /* BMSelectorButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +306,7 @@
 			files = (
 				001AF3B916822D74007CFF78 /* BMUtilityPackTests.m in Sources */,
 				001AF3D5168248F2007CFF78 /* AppDelegate.m in Sources */,
-				001AF3E6168249DB007CFF78 /* BMSelectorButton.m in Sources */,
+				001AF3ED16824A8C007CFF78 /* BMSelectorButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
