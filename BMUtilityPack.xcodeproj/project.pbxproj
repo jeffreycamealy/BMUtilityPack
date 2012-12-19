@@ -10,19 +10,22 @@
 		001AF38E16822D74007CFF78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001AF38D16822D74007CFF78 /* UIKit.framework */; };
 		001AF39016822D74007CFF78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001AF38F16822D74007CFF78 /* Foundation.framework */; };
 		001AF39216822D74007CFF78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001AF39116822D74007CFF78 /* CoreGraphics.framework */; };
-		001AF39816822D74007CFF78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 001AF39616822D74007CFF78 /* InfoPlist.strings */; };
 		001AF39A16822D74007CFF78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AF39916822D74007CFF78 /* main.m */; };
-		001AF39E16822D74007CFF78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AF39D16822D74007CFF78 /* AppDelegate.m */; };
-		001AF3A016822D74007CFF78 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 001AF39F16822D74007CFF78 /* Default.png */; };
-		001AF3A216822D74007CFF78 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001AF3A116822D74007CFF78 /* Default@2x.png */; };
-		001AF3A416822D74007CFF78 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001AF3A316822D74007CFF78 /* Default-568h@2x.png */; };
 		001AF3AC16822D74007CFF78 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001AF3AB16822D74007CFF78 /* SenTestingKit.framework */; };
 		001AF3AD16822D74007CFF78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001AF38D16822D74007CFF78 /* UIKit.framework */; };
 		001AF3AE16822D74007CFF78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001AF38F16822D74007CFF78 /* Foundation.framework */; };
 		001AF3B616822D74007CFF78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 001AF3B416822D74007CFF78 /* InfoPlist.strings */; };
 		001AF3B916822D74007CFF78 /* BMUtilityPackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AF3B816822D74007CFF78 /* BMUtilityPackTests.m */; };
-		001AF3CD16823086007CFF78 /* BMSelectorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AF3CC16823086007CFF78 /* BMSelectorButton.m */; };
-		001AF3CE16823086007CFF78 /* BMSelectorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AF3CC16823086007CFF78 /* BMSelectorButton.m */; };
+		001AF3D4168248F2007CFF78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AF3D0168248F2007CFF78 /* AppDelegate.m */; };
+		001AF3D5168248F2007CFF78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AF3D0168248F2007CFF78 /* AppDelegate.m */; };
+		001AF3DD16824952007CFF78 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001AF3DA16824952007CFF78 /* Default-568h@2x.png */; };
+		001AF3DE16824952007CFF78 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001AF3DA16824952007CFF78 /* Default-568h@2x.png */; };
+		001AF3DF16824952007CFF78 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 001AF3DB16824952007CFF78 /* Default.png */; };
+		001AF3E016824952007CFF78 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 001AF3DB16824952007CFF78 /* Default.png */; };
+		001AF3E116824952007CFF78 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001AF3DC16824952007CFF78 /* Default@2x.png */; };
+		001AF3E216824952007CFF78 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001AF3DC16824952007CFF78 /* Default@2x.png */; };
+		001AF3E5168249DB007CFF78 /* BMSelectorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AF3E4168249DB007CFF78 /* BMSelectorButton.m */; };
+		001AF3E6168249DB007CFF78 /* BMSelectorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AF3E4168249DB007CFF78 /* BMSelectorButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,22 +44,21 @@
 		001AF38F16822D74007CFF78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		001AF39116822D74007CFF78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		001AF39516822D74007CFF78 /* BMUtilityPack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BMUtilityPack-Info.plist"; sourceTree = "<group>"; };
-		001AF39716822D74007CFF78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		001AF39916822D74007CFF78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		001AF39B16822D74007CFF78 /* BMUtilityPack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BMUtilityPack-Prefix.pch"; sourceTree = "<group>"; };
-		001AF39C16822D74007CFF78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		001AF39D16822D74007CFF78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		001AF39F16822D74007CFF78 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		001AF3A116822D74007CFF78 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		001AF3A316822D74007CFF78 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		001AF3AA16822D74007CFF78 /* BMUtilityPackTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMUtilityPackTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		001AF3AB16822D74007CFF78 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		001AF3B316822D74007CFF78 /* BMUtilityPackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BMUtilityPackTests-Info.plist"; sourceTree = "<group>"; };
 		001AF3B516822D74007CFF78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		001AF3B716822D74007CFF78 /* BMUtilityPackTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMUtilityPackTests.h; sourceTree = "<group>"; };
 		001AF3B816822D74007CFF78 /* BMUtilityPackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMUtilityPackTests.m; sourceTree = "<group>"; };
-		001AF3CB16823086007CFF78 /* BMSelectorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMSelectorButton.h; sourceTree = "<group>"; };
-		001AF3CC16823086007CFF78 /* BMSelectorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMSelectorButton.m; sourceTree = "<group>"; };
+		001AF3CF168248F2007CFF78 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		001AF3D0168248F2007CFF78 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		001AF3DA16824952007CFF78 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		001AF3DB16824952007CFF78 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		001AF3DC16824952007CFF78 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		001AF3E3168249DB007CFF78 /* BMSelectorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMSelectorButton.h; path = Utilities/BMSelectorButton.h; sourceTree = "<group>"; };
+		001AF3E4168249DB007CFF78 /* BMSelectorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMSelectorButton.m; path = Utilities/BMSelectorButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,11 +118,9 @@
 		001AF39316822D74007CFF78 /* BMUtilityPack */ = {
 			isa = PBXGroup;
 			children = (
-				001AF39C16822D74007CFF78 /* AppDelegate.h */,
-				001AF39D16822D74007CFF78 /* AppDelegate.m */,
+				001AF3E8168249E6007CFF78 /* AppDelegate */,
 				001AF39416822D74007CFF78 /* Supporting Files */,
-				001AF3CB16823086007CFF78 /* BMSelectorButton.h */,
-				001AF3CC16823086007CFF78 /* BMSelectorButton.m */,
+				001AF3E9168249FB007CFF78 /* Utilities */,
 			);
 			path = BMUtilityPack;
 			sourceTree = "<group>";
@@ -128,13 +128,12 @@
 		001AF39416822D74007CFF78 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				001AF3DA16824952007CFF78 /* Default-568h@2x.png */,
+				001AF3DB16824952007CFF78 /* Default.png */,
+				001AF3DC16824952007CFF78 /* Default@2x.png */,
 				001AF39516822D74007CFF78 /* BMUtilityPack-Info.plist */,
-				001AF39616822D74007CFF78 /* InfoPlist.strings */,
 				001AF39916822D74007CFF78 /* main.m */,
 				001AF39B16822D74007CFF78 /* BMUtilityPack-Prefix.pch */,
-				001AF39F16822D74007CFF78 /* Default.png */,
-				001AF3A116822D74007CFF78 /* Default@2x.png */,
-				001AF3A316822D74007CFF78 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -156,6 +155,32 @@
 				001AF3B416822D74007CFF78 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		001AF3E7168249DE007CFF78 /* BMSelectorButton */ = {
+			isa = PBXGroup;
+			children = (
+				001AF3E3168249DB007CFF78 /* BMSelectorButton.h */,
+				001AF3E4168249DB007CFF78 /* BMSelectorButton.m */,
+			);
+			name = BMSelectorButton;
+			sourceTree = "<group>";
+		};
+		001AF3E8168249E6007CFF78 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				001AF3CF168248F2007CFF78 /* AppDelegate.h */,
+				001AF3D0168248F2007CFF78 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		001AF3E9168249FB007CFF78 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				001AF3E7168249DE007CFF78 /* BMSelectorButton */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,10 +254,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				001AF39816822D74007CFF78 /* InfoPlist.strings in Resources */,
-				001AF3A016822D74007CFF78 /* Default.png in Resources */,
-				001AF3A216822D74007CFF78 /* Default@2x.png in Resources */,
-				001AF3A416822D74007CFF78 /* Default-568h@2x.png in Resources */,
+				001AF3DD16824952007CFF78 /* Default-568h@2x.png in Resources */,
+				001AF3DF16824952007CFF78 /* Default.png in Resources */,
+				001AF3E116824952007CFF78 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				001AF3B616822D74007CFF78 /* InfoPlist.strings in Resources */,
+				001AF3DE16824952007CFF78 /* Default-568h@2x.png in Resources */,
+				001AF3E016824952007CFF78 /* Default.png in Resources */,
+				001AF3E216824952007CFF78 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +295,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				001AF39A16822D74007CFF78 /* main.m in Sources */,
-				001AF39E16822D74007CFF78 /* AppDelegate.m in Sources */,
-				001AF3CD16823086007CFF78 /* BMSelectorButton.m in Sources */,
+				001AF3D4168248F2007CFF78 /* AppDelegate.m in Sources */,
+				001AF3E5168249DB007CFF78 /* BMSelectorButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +305,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				001AF3B916822D74007CFF78 /* BMUtilityPackTests.m in Sources */,
-				001AF3CE16823086007CFF78 /* BMSelectorButton.m in Sources */,
+				001AF3D5168248F2007CFF78 /* AppDelegate.m in Sources */,
+				001AF3E6168249DB007CFF78 /* BMSelectorButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		001AF39616822D74007CFF78 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				001AF39716822D74007CFF78 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		001AF3B416822D74007CFF78 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
