@@ -6,6 +6,12 @@
 //  Copyright (c) 2012 bearMountain. All rights reserved.
 //
 
+
+//
+// Usage:
+// Configure Default and Selected settings.
+//
+
 #import <UIKit/UIKit.h>
 
 @interface BMSelectorButton : UIButton

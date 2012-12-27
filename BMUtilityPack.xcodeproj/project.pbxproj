@@ -60,6 +60,7 @@
 		001AF3DC16824952007CFF78 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		001AF3EA16824A8C007CFF78 /* BMSelectorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMSelectorButton.h; path = Utilities/BMSelectorButton/BMSelectorButton.h; sourceTree = "<group>"; };
 		001AF3EB16824A8C007CFF78 /* BMSelectorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMSelectorButton.m; path = Utilities/BMSelectorButton/BMSelectorButton.m; sourceTree = "<group>"; };
+		0064BD22168CE5A900CAC468 /* BMInitMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMInitMacros.h; path = Utilities/BMInitMacros/BMInitMacros.h; sourceTree = "<group>"; };
 		00F4991216855C9000A46D10 /* UIView+FrameManipulations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+FrameManipulations.h"; path = "Utilities/UIView+FrameManipulation/UIView+FrameManipulations.h"; sourceTree = "<group>"; };
 		00F4991316855C9000A46D10 /* UIView+FrameManipulations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FrameManipulations.m"; path = "Utilities/UIView+FrameManipulation/UIView+FrameManipulations.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -181,10 +182,19 @@
 		001AF3E9168249FB007CFF78 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				0064BD20168CE59400CAC468 /* BMInitMacros */,
 				00F4991016855B0600A46D10 /* UIView+FrameManipulation */,
 				001AF3E7168249DE007CFF78 /* BMSelectorButton */,
 			);
 			name = Utilities;
+			sourceTree = "<group>";
+		};
+		0064BD20168CE59400CAC468 /* BMInitMacros */ = {
+			isa = PBXGroup;
+			children = (
+				0064BD22168CE5A900CAC468 /* BMInitMacros.h */,
+			);
+			name = BMInitMacros;
 			sourceTree = "<group>";
 		};
 		00F4991016855B0600A46D10 /* UIView+FrameManipulation */ = {
