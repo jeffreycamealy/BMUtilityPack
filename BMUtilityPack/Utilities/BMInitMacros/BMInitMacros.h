@@ -41,7 +41,13 @@
 }
 
 
-
+#define NSInit(code)                            \
+- (id)init {                                    \
+    if (self = [super init]) {                  \
+        code;                                   \
+    }                                           \
+    return self;                                \
+}
 
 
 

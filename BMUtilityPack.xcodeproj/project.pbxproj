@@ -26,6 +26,11 @@
 		001AF3E216824952007CFF78 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001AF3DC16824952007CFF78 /* Default@2x.png */; };
 		001AF3EC16824A8C007CFF78 /* BMSelectorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AF3EB16824A8C007CFF78 /* BMSelectorButton.m */; };
 		001AF3ED16824A8C007CFF78 /* BMSelectorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AF3EB16824A8C007CFF78 /* BMSelectorButton.m */; };
+		00559295169F743700255341 /* UITableView+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 00559294169F743700255341 /* UITableView+Utilities.m */; };
+		0055929E169F745800255341 /* BMColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 00559297169F745800255341 /* BMColors.m */; };
+		0055929F169F745800255341 /* BMDebugUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 00559299169F745800255341 /* BMDebugUtilities.m */; };
+		005592A0169F745800255341 /* BMDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055929B169F745800255341 /* BMDispatch.m */; };
+		005592A1169F745800255341 /* BMNSBundleUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055929D169F745800255341 /* BMNSBundleUtilities.m */; };
 		00F4991416855C9000A46D10 /* UIView+FrameManipulations.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F4991316855C9000A46D10 /* UIView+FrameManipulations.m */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +65,16 @@
 		001AF3DC16824952007CFF78 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		001AF3EA16824A8C007CFF78 /* BMSelectorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMSelectorButton.h; path = Utilities/BMSelectorButton/BMSelectorButton.h; sourceTree = "<group>"; };
 		001AF3EB16824A8C007CFF78 /* BMSelectorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMSelectorButton.m; path = Utilities/BMSelectorButton/BMSelectorButton.m; sourceTree = "<group>"; };
+		00559293169F743700255341 /* UITableView+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView+Utilities.h"; path = "Utilities/UITableView+Utilities/UITableView+Utilities.h"; sourceTree = "<group>"; };
+		00559294169F743700255341 /* UITableView+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableView+Utilities.m"; path = "Utilities/UITableView+Utilities/UITableView+Utilities.m"; sourceTree = "<group>"; };
+		00559296169F745800255341 /* BMColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMColors.h; path = Utilities/BMColors/BMColors.h; sourceTree = "<group>"; };
+		00559297169F745800255341 /* BMColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMColors.m; path = Utilities/BMColors/BMColors.m; sourceTree = "<group>"; };
+		00559298169F745800255341 /* BMDebugUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMDebugUtilities.h; path = Utilities/BMDebugUtilities/BMDebugUtilities.h; sourceTree = "<group>"; };
+		00559299169F745800255341 /* BMDebugUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMDebugUtilities.m; path = Utilities/BMDebugUtilities/BMDebugUtilities.m; sourceTree = "<group>"; };
+		0055929A169F745800255341 /* BMDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMDispatch.h; path = Utilities/BMDispatch/BMDispatch.h; sourceTree = "<group>"; };
+		0055929B169F745800255341 /* BMDispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMDispatch.m; path = Utilities/BMDispatch/BMDispatch.m; sourceTree = "<group>"; };
+		0055929C169F745800255341 /* BMNSBundleUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMNSBundleUtilities.h; path = Utilities/BMNSBundleUtilities/BMNSBundleUtilities.h; sourceTree = "<group>"; };
+		0055929D169F745800255341 /* BMNSBundleUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMNSBundleUtilities.m; path = Utilities/BMNSBundleUtilities/BMNSBundleUtilities.m; sourceTree = "<group>"; };
 		0064BD22168CE5A900CAC468 /* BMInitMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMInitMacros.h; path = Utilities/BMInitMacros/BMInitMacros.h; sourceTree = "<group>"; };
 		00F4991216855C9000A46D10 /* UIView+FrameManipulations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+FrameManipulations.h"; path = "Utilities/UIView+FrameManipulation/UIView+FrameManipulations.h"; sourceTree = "<group>"; };
 		00F4991316855C9000A46D10 /* UIView+FrameManipulations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FrameManipulations.m"; path = "Utilities/UIView+FrameManipulation/UIView+FrameManipulations.m"; sourceTree = "<group>"; };
@@ -182,11 +197,61 @@
 		001AF3E9168249FB007CFF78 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				00559291169F740700255341 /* BMNSBundleUtilities */,
+				0055928D169F73F000255341 /* BMColors */,
+				0055928F169F73F600255341 /* BMDebugUtilities */,
+				005592A2169F747100255341 /* BMDispatch */,
 				0064BD20168CE59400CAC468 /* BMInitMacros */,
-				00F4991016855B0600A46D10 /* UIView+FrameManipulation */,
 				001AF3E7168249DE007CFF78 /* BMSelectorButton */,
+				00559292169F741B00255341 /* UITableView+Utilities */,
+				00F4991016855B0600A46D10 /* UIView+FrameManipulation */,
 			);
 			name = Utilities;
+			sourceTree = "<group>";
+		};
+		0055928D169F73F000255341 /* BMColors */ = {
+			isa = PBXGroup;
+			children = (
+				00559296169F745800255341 /* BMColors.h */,
+				00559297169F745800255341 /* BMColors.m */,
+			);
+			name = BMColors;
+			sourceTree = "<group>";
+		};
+		0055928F169F73F600255341 /* BMDebugUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				00559298169F745800255341 /* BMDebugUtilities.h */,
+				00559299169F745800255341 /* BMDebugUtilities.m */,
+			);
+			name = BMDebugUtilities;
+			sourceTree = "<group>";
+		};
+		00559291169F740700255341 /* BMNSBundleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				0055929C169F745800255341 /* BMNSBundleUtilities.h */,
+				0055929D169F745800255341 /* BMNSBundleUtilities.m */,
+			);
+			name = BMNSBundleUtilities;
+			sourceTree = "<group>";
+		};
+		00559292169F741B00255341 /* UITableView+Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				00559293169F743700255341 /* UITableView+Utilities.h */,
+				00559294169F743700255341 /* UITableView+Utilities.m */,
+			);
+			name = "UITableView+Utilities";
+			sourceTree = "<group>";
+		};
+		005592A2169F747100255341 /* BMDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				0055929A169F745800255341 /* BMDispatch.h */,
+				0055929B169F745800255341 /* BMDispatch.m */,
+			);
+			name = BMDispatch;
 			sourceTree = "<group>";
 		};
 		0064BD20168CE59400CAC468 /* BMInitMacros */ = {
@@ -321,6 +386,11 @@
 				001AF3D4168248F2007CFF78 /* AppDelegate.m in Sources */,
 				001AF3EC16824A8C007CFF78 /* BMSelectorButton.m in Sources */,
 				00F4991416855C9000A46D10 /* UIView+FrameManipulations.m in Sources */,
+				00559295169F743700255341 /* UITableView+Utilities.m in Sources */,
+				0055929E169F745800255341 /* BMColors.m in Sources */,
+				0055929F169F745800255341 /* BMDebugUtilities.m in Sources */,
+				005592A0169F745800255341 /* BMDispatch.m in Sources */,
+				005592A1169F745800255341 /* BMNSBundleUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
