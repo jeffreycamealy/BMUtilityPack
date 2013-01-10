@@ -10,4 +10,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = 'BMUtilityPack/Utilities/**/*.{h,m}'
   s.preserve_paths = 'BMUtilityPack/Utilities'
+
+	s.subspec 'BMColors' do |colors|
+		colors.source_files = 'BMUtilityPack/Utilities/BMColors/*.{h,m}'	
+	end
+
 end
