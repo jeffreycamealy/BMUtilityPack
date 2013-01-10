@@ -3,7 +3,7 @@
 //  My-Villages
 //
 //  Created by Jeffrey Camealy on 1/4/13.
-//  Copyright (c) 2013 Ora Interactive. All rights reserved.
+//  Copyright (c) 2013 bearMontain. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

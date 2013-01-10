@@ -3,11 +3,9 @@
 //  My-Villages
 //
 //  Created by Jeffrey Camealy on 12/26/12.
-//  Copyright (c) 2012 Ora Interactive. All rights reserved.
+//  Copyright (c) 2012 bearMountain. All rights reserved.
 //
 
-
-// Begin Macros
 
 #define UIViewControllerCommonInit(code)        \
 - (id)init {                                    \
