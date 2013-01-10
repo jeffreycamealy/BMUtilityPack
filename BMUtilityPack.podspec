@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "BMUtilityPack"
-  s.version      = "0.8"
+  s.version      = "0.7"
   s.summary      = "Useful custom objects and functions."
   s.homepage     = "https://github.com/jeffreycamealy/BMUtilityPack.git"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -10,8 +10,17 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 #  s.source_files = 'BMUtilityPack/Utilities/**/*.{h,m}'
 
-	s.subspec 'BMColors' do |colors|
-		colors.source_files = 'BMUtilityPack/Utilities/BMColors/*.{h,m}'	
+	utilities_path = 'BMUtilityPack/Utilities/'
+	source_files_path = '/*.{h,m}'
+
+	ss = 'BMColors'
+	s.subspec ss do |colors|
+		colors.source_files = utilities_path + ss + source_files_path
+	end
+
+	ss = 'BMDispatch'
+	s.subspec ss do |colors|
+		colors.source_files = utilities_path + ss + source_files_path
 	end
 
 end
