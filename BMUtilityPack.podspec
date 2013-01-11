@@ -1,13 +1,12 @@
 Pod::Spec.new do |s|
 	s.name         = "BMUtilityPack"
-	s.version      = "0.9"
+	s.version      = "1.0"
 	s.summary      = "Useful custom objects and functions."
 	s.homepage     = "https://github.com/jeffreycamealy/BMUtilityPack.git"
 	s.license      = { :type => 'MIT', :file => 'LICENSE' }
 	s.author       = { "Jeffrey Camealy" => "jcamealy@gmail.com" }
 	s.source       = { :git => "https://github.com/jeffreycamealy/BMUtilityPack.git", :tag => "0.9" }
 	s.platform     = :ios, '5.0'
-	s.requires_arc = true
 
 
 	# Subspecs
@@ -15,49 +14,58 @@ Pod::Spec.new do |s|
 	utilities_path = 'BMUtilityPack/Utilities/'
 	source_files_path = '/*.{h,m}'
 
-	ss = 'BMNSBundleUtilities'
-	s.subspec ss do |colors|
-		colors.source_files = utilities_path + ss + source_files_path
+	subspec_name = 'BMNSBundleUtilities'
+	s.subspec subspec_name do |ss|
+		ss.source_files = utilities_path + subspec_name + source_files_path
+		ss.requires_arc = true
 	end
 
-	ss = 'BMColors'
-	s.subspec ss do |colors|
-		colors.source_files = utilities_path + ss + source_files_path
+	subspec_name = 'BMColors'
+	s.subspec subspec_name do |ss|
+		ss.source_files = utilities_path + subspec_name + source_files_path
+		ss.requires_arc = true
 	end
 
-	ss = 'BMDebugUtilities'
-	s.subspec ss do |colors|
-		colors.source_files = utilities_path + ss + source_files_path
+	subspec_name = 'BMDebugUtilities'
+	s.subspec subspec_name do |ss|
+		ss.source_files = utilities_path + subspec_name + source_files_path
+		ss.requires_arc = true
 	end
 
-	ss = 'BMDispatch'
-	s.subspec ss do |colors|
-		colors.source_files = utilities_path + ss + source_files_path
+	subspec_name = 'BMDispatch'
+	s.subspec subspec_name do |ss|
+		ss.source_files = utilities_path + subspec_name + source_files_path
+		ss.requires_arc = true
 	end
 
-	ss = 'BMInitMacros'
-	s.subspec ss do |colors|
-		colors.source_files = utilities_path + ss + source_files_path
+	subspec_name = 'BMInitMacros'
+	s.subspec subspec_name do |ss|
+		ss.source_files = utilities_path + subspec_name + source_files_path
+		ss.requires_arc = true
 	end
 
-	ss = 'BMSelectorButton'
-	s.subspec ss do |colors|
-		colors.source_files = utilities_path + ss + source_files_path
+	subspec_name = 'BMSelectorButton'
+	s.subspec subspec_name do |ss|
+		ss.source_files = utilities_path + subspec_name + source_files_path
+		ss.requires_arc = true
 	end
 
-	ss = 'UITableView+Utilities'
-	s.subspec ss do |colors|
-		colors.source_files = utilities_path + ss + source_files_path
+	subspec_name = 'UITableView+Utilities'
+	s.subspec subspec_name do |ss|
+		ss.source_files = utilities_path + subspec_name + source_files_path
+		ss.requires_arc = true
 	end
 
-	ss = 'UIImageView+Utilities'
-	s.subspec ss do |colors|
-		colors.source_files = utilities_path + ss + source_files_path
+	subspec_name = 'UIImageView+Utilities'
+	s.subspec subspec_name do |ss|
+		ss.source_files = utilities_path + subspec_name + source_files_path
+		ss.requires_arc = true
 	end
 
-	ss = 'UIView+FrameManipulation'
-	s.subspec ss do |colors|
-		colors.source_files = utilities_path + ss + source_files_path
+	subspec_name = 'UIView+FrameManipulation'
+	s.subspec subspec_name do |ss|
+		ss.source_files = utilities_path + subspec_name + source_files_path
+		ss.requires_arc = true
 	end
 
 end
