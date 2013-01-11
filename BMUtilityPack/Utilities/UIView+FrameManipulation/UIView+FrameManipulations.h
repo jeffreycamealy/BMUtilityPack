@@ -12,10 +12,12 @@
 - (void)offsetXBy:(float)offset;
 - (void)offsetYBy:(float)offset;
 - (void)offsetXBy:(float)xOffset offsetYBy:(float)yOffset;
-- (void)offsetHeightBy:(float)height;
+
 
 - (void)setFrameOriginX:(float)originX;
 - (void)setFrameOriginY:(float)originY;
 - (void)setFrameHeight:(float)height;
 - (void)setFrameWidth:(float)width;
+- (void)offsetHeightBy:(float)height;
+- (void)offsetWidthBy:(float)width;
 @end

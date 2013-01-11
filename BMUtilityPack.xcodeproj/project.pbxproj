@@ -197,12 +197,12 @@
 		001AF3E9168249FB007CFF78 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				00559291169F740700255341 /* BMNSBundleUtilities */,
 				0055928D169F73F000255341 /* BMColors */,
-				0055928F169F73F600255341 /* BMDebugUtilities */,
 				005592A2169F747100255341 /* BMDispatch */,
 				0064BD20168CE59400CAC468 /* BMInitMacros */,
+				0055928F169F73F600255341 /* BMDebugUtilities */,
 				001AF3E7168249DE007CFF78 /* BMSelectorButton */,
+				00559291169F740700255341 /* BMNSBundleUtilities */,
 				00559292169F741B00255341 /* UITableView+Utilities */,
 				00F4991016855B0600A46D10 /* UIView+FrameManipulation */,
 			);
