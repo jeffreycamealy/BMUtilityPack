@@ -31,6 +31,7 @@
 		0055929F169F745800255341 /* BMDebugUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 00559299169F745800255341 /* BMDebugUtilities.m */; };
 		005592A0169F745800255341 /* BMDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055929B169F745800255341 /* BMDispatch.m */; };
 		005592A1169F745800255341 /* BMNSBundleUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055929D169F745800255341 /* BMNSBundleUtilities.m */; };
+		00B851D516A09AE4000036F6 /* UIImageView+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B851D416A09AE4000036F6 /* UIImageView+Utilities.m */; };
 		00F4991416855C9000A46D10 /* UIView+FrameManipulations.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F4991316855C9000A46D10 /* UIView+FrameManipulations.m */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,8 @@
 		0055929C169F745800255341 /* BMNSBundleUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMNSBundleUtilities.h; path = Utilities/BMNSBundleUtilities/BMNSBundleUtilities.h; sourceTree = "<group>"; };
 		0055929D169F745800255341 /* BMNSBundleUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMNSBundleUtilities.m; path = Utilities/BMNSBundleUtilities/BMNSBundleUtilities.m; sourceTree = "<group>"; };
 		0064BD22168CE5A900CAC468 /* BMInitMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMInitMacros.h; path = Utilities/BMInitMacros/BMInitMacros.h; sourceTree = "<group>"; };
+		00B851D316A09AE4000036F6 /* UIImageView+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Utilities.h"; path = "Utilities/UIImageView+Utilities/UIImageView+Utilities.h"; sourceTree = "<group>"; };
+		00B851D416A09AE4000036F6 /* UIImageView+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Utilities.m"; path = "Utilities/UIImageView+Utilities/UIImageView+Utilities.m"; sourceTree = "<group>"; };
 		00F4991216855C9000A46D10 /* UIView+FrameManipulations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+FrameManipulations.h"; path = "Utilities/UIView+FrameManipulation/UIView+FrameManipulations.h"; sourceTree = "<group>"; };
 		00F4991316855C9000A46D10 /* UIView+FrameManipulations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FrameManipulations.m"; path = "Utilities/UIView+FrameManipulation/UIView+FrameManipulations.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -204,6 +207,7 @@
 				001AF3E7168249DE007CFF78 /* BMSelectorButton */,
 				00559291169F740700255341 /* BMNSBundleUtilities */,
 				00559292169F741B00255341 /* UITableView+Utilities */,
+				00B851D116A09A57000036F6 /* UIImageView+Utilities */,
 				00F4991016855B0600A46D10 /* UIView+FrameManipulation */,
 			);
 			name = Utilities;
@@ -260,6 +264,15 @@
 				0064BD22168CE5A900CAC468 /* BMInitMacros.h */,
 			);
 			name = BMInitMacros;
+			sourceTree = "<group>";
+		};
+		00B851D116A09A57000036F6 /* UIImageView+Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				00B851D316A09AE4000036F6 /* UIImageView+Utilities.h */,
+				00B851D416A09AE4000036F6 /* UIImageView+Utilities.m */,
+			);
+			name = "UIImageView+Utilities";
 			sourceTree = "<group>";
 		};
 		00F4991016855B0600A46D10 /* UIView+FrameManipulation */ = {
@@ -391,6 +404,7 @@
 				0055929F169F745800255341 /* BMDebugUtilities.m in Sources */,
 				005592A0169F745800255341 /* BMDispatch.m in Sources */,
 				005592A1169F745800255341 /* BMNSBundleUtilities.m in Sources */,
+				00B851D516A09AE4000036F6 /* UIImageView+Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
