@@ -26,13 +26,13 @@
 		001AF3E216824952007CFF78 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001AF3DC16824952007CFF78 /* Default@2x.png */; };
 		001AF3EC16824A8C007CFF78 /* BMSelectorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AF3EB16824A8C007CFF78 /* BMSelectorButton.m */; };
 		001AF3ED16824A8C007CFF78 /* BMSelectorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AF3EB16824A8C007CFF78 /* BMSelectorButton.m */; };
+		0051E93616A39D8B00856DA7 /* UIView+FrameManipulations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0051E93516A39D8B00856DA7 /* UIView+FrameManipulations.m */; };
 		00559295169F743700255341 /* UITableView+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 00559294169F743700255341 /* UITableView+Utilities.m */; };
 		0055929E169F745800255341 /* BMColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 00559297169F745800255341 /* BMColors.m */; };
 		0055929F169F745800255341 /* BMDebugUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 00559299169F745800255341 /* BMDebugUtilities.m */; };
 		005592A0169F745800255341 /* BMDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055929B169F745800255341 /* BMDispatch.m */; };
 		005592A1169F745800255341 /* BMNSBundleUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055929D169F745800255341 /* BMNSBundleUtilities.m */; };
 		00B851D516A09AE4000036F6 /* UIImageView+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B851D416A09AE4000036F6 /* UIImageView+Utilities.m */; };
-		00F4991416855C9000A46D10 /* UIView+FrameManipulations.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F4991316855C9000A46D10 /* UIView+FrameManipulations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +66,8 @@
 		001AF3DC16824952007CFF78 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		001AF3EA16824A8C007CFF78 /* BMSelectorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMSelectorButton.h; path = Utilities/BMSelectorButton/BMSelectorButton.h; sourceTree = "<group>"; };
 		001AF3EB16824A8C007CFF78 /* BMSelectorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMSelectorButton.m; path = Utilities/BMSelectorButton/BMSelectorButton.m; sourceTree = "<group>"; };
+		0051E93416A39D8B00856DA7 /* UIView+FrameManipulations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+FrameManipulations.h"; path = "Utilities/UIView+FrameManipulations/UIView+FrameManipulations.h"; sourceTree = "<group>"; };
+		0051E93516A39D8B00856DA7 /* UIView+FrameManipulations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FrameManipulations.m"; path = "Utilities/UIView+FrameManipulations/UIView+FrameManipulations.m"; sourceTree = "<group>"; };
 		00559293169F743700255341 /* UITableView+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView+Utilities.h"; path = "Utilities/UITableView+Utilities/UITableView+Utilities.h"; sourceTree = "<group>"; };
 		00559294169F743700255341 /* UITableView+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableView+Utilities.m"; path = "Utilities/UITableView+Utilities/UITableView+Utilities.m"; sourceTree = "<group>"; };
 		00559296169F745800255341 /* BMColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMColors.h; path = Utilities/BMColors/BMColors.h; sourceTree = "<group>"; };
@@ -79,8 +81,6 @@
 		0064BD22168CE5A900CAC468 /* BMInitMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMInitMacros.h; path = Utilities/BMInitMacros/BMInitMacros.h; sourceTree = "<group>"; };
 		00B851D316A09AE4000036F6 /* UIImageView+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Utilities.h"; path = "Utilities/UIImageView+Utilities/UIImageView+Utilities.h"; sourceTree = "<group>"; };
 		00B851D416A09AE4000036F6 /* UIImageView+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Utilities.m"; path = "Utilities/UIImageView+Utilities/UIImageView+Utilities.m"; sourceTree = "<group>"; };
-		00F4991216855C9000A46D10 /* UIView+FrameManipulations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+FrameManipulations.h"; path = "Utilities/UIView+FrameManipulation/UIView+FrameManipulations.h"; sourceTree = "<group>"; };
-		00F4991316855C9000A46D10 /* UIView+FrameManipulations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FrameManipulations.m"; path = "Utilities/UIView+FrameManipulation/UIView+FrameManipulations.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,7 +208,7 @@
 				00559291169F740700255341 /* BMNSBundleUtilities */,
 				00559292169F741B00255341 /* UITableView+Utilities */,
 				00B851D116A09A57000036F6 /* UIImageView+Utilities */,
-				00F4991016855B0600A46D10 /* UIView+FrameManipulation */,
+				00F4991016855B0600A46D10 /* UIView+FrameManipulations */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -275,13 +275,13 @@
 			name = "UIImageView+Utilities";
 			sourceTree = "<group>";
 		};
-		00F4991016855B0600A46D10 /* UIView+FrameManipulation */ = {
+		00F4991016855B0600A46D10 /* UIView+FrameManipulations */ = {
 			isa = PBXGroup;
 			children = (
-				00F4991216855C9000A46D10 /* UIView+FrameManipulations.h */,
-				00F4991316855C9000A46D10 /* UIView+FrameManipulations.m */,
+				0051E93416A39D8B00856DA7 /* UIView+FrameManipulations.h */,
+				0051E93516A39D8B00856DA7 /* UIView+FrameManipulations.m */,
 			);
-			name = "UIView+FrameManipulation";
+			name = "UIView+FrameManipulations";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,13 +398,13 @@
 				001AF39A16822D74007CFF78 /* main.m in Sources */,
 				001AF3D4168248F2007CFF78 /* AppDelegate.m in Sources */,
 				001AF3EC16824A8C007CFF78 /* BMSelectorButton.m in Sources */,
-				00F4991416855C9000A46D10 /* UIView+FrameManipulations.m in Sources */,
 				00559295169F743700255341 /* UITableView+Utilities.m in Sources */,
 				0055929E169F745800255341 /* BMColors.m in Sources */,
 				0055929F169F745800255341 /* BMDebugUtilities.m in Sources */,
 				005592A0169F745800255341 /* BMDispatch.m in Sources */,
 				005592A1169F745800255341 /* BMNSBundleUtilities.m in Sources */,
 				00B851D516A09AE4000036F6 /* UIImageView+Utilities.m in Sources */,
+				0051E93616A39D8B00856DA7 /* UIView+FrameManipulations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
