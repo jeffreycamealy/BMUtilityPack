@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
 	s.name         = "BMUtilityPack"
-	s.version      = "1.0.1"
+	s.version      = "1.0.2"
 	s.summary      = "Useful custom objects and functions."
 	s.homepage     = "https://github.com/jeffreycamealy/BMUtilityPack.git"
 	s.license      = { :type => 'MIT', :file => 'LICENSE' }
 	s.author       = { "Jeffrey Camealy" => "jcamealy@gmail.com" }
-	s.source       = { :git => "https://github.com/jeffreycamealy/BMUtilityPack.git", :tag => "1.0.1" }
+	s.source       = { :git => "https://github.com/jeffreycamealy/BMUtilityPack.git", :tag => "1.0.2" }
 	s.platform     = :ios, '5.0'
 
 
@@ -14,19 +14,7 @@ Pod::Spec.new do |s|
 	utilities_path = 'BMUtilityPack/Utilities/'
 	source_files_path = '/*.{h,m}'
 
-	subspec_name = 'BMNSBundleUtilities'
-	s.subspec subspec_name do |ss|
-		ss.source_files = utilities_path + subspec_name + source_files_path
-		ss.requires_arc = true
-	end
-
 	subspec_name = 'BMColors'
-	s.subspec subspec_name do |ss|
-		ss.source_files = utilities_path + subspec_name + source_files_path
-		ss.requires_arc = true
-	end
-
-	subspec_name = 'BMDebugUtilities'
 	s.subspec subspec_name do |ss|
 		ss.source_files = utilities_path + subspec_name + source_files_path
 		ss.requires_arc = true
@@ -44,19 +32,31 @@ Pod::Spec.new do |s|
 		ss.requires_arc = true
 	end
 
+	subspec_name = 'BMDebugUtilities'
+	s.subspec subspec_name do |ss|
+		ss.source_files = utilities_path + subspec_name + source_files_path
+		ss.requires_arc = true
+	end
+
 	subspec_name = 'BMSelectorButton'
 	s.subspec subspec_name do |ss|
 		ss.source_files = utilities_path + subspec_name + source_files_path
 		ss.requires_arc = true
 	end
 
-	subspec_name = 'UITableView+Utilities'
+	subspec_name = 'BMNSBundleUtilities'
 	s.subspec subspec_name do |ss|
 		ss.source_files = utilities_path + subspec_name + source_files_path
 		ss.requires_arc = true
 	end
 
 	subspec_name = 'UIImageView+Utilities'
+	s.subspec subspec_name do |ss|
+		ss.source_files = utilities_path + subspec_name + source_files_path
+		ss.requires_arc = true
+	end
+
+	subspec_name = 'UITableView+Utilities'
 	s.subspec subspec_name do |ss|
 		ss.source_files = utilities_path + subspec_name + source_files_path
 		ss.requires_arc = true
