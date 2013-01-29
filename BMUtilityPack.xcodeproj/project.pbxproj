@@ -206,8 +206,8 @@
 				0055928F169F73F600255341 /* BMDebugUtilities */,
 				001AF3E7168249DE007CFF78 /* BMSelectorButton */,
 				00559291169F740700255341 /* BMNSBundleUtilities */,
-				00559292169F741B00255341 /* UITableView+Utilities */,
 				00B851D116A09A57000036F6 /* UIImageView+Utilities */,
+				00559292169F741B00255341 /* UITableView+Utilities */,
 				00F4991016855B0600A46D10 /* UIView+FrameManipulations */,
 			);
 			name = Utilities;
