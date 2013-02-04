@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImageView (Utilities)
-- (id)initWithImageNamed:(NSString *)imageName;
++ (id)imageViewWithImageNamed:(NSString *)imageName;
 @end

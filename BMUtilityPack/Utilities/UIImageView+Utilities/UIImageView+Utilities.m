@@ -10,9 +10,9 @@
 
 @implementation UIImageView (Utilities)
 
-- (id)initWithImageNamed:(NSString *)imageName {
++ (id)imageViewWithImageNamed:(NSString *)imageName {
     UIImage *image = [UIImage imageNamed:imageName];
-    return [self initWithImage:image];
+    return [[UIImageView alloc] initWithImage:image];
 }
 
 @end
