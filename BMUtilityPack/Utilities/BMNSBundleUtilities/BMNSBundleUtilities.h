@@ -13,4 +13,4 @@ NSArray *arrayFromPlistNamed(NSString *name);
 //
 // Function assumes there exists only 1 top level view object.
 //
-UIView *rootViewFromNibNamed(NSString *name);
+id rootViewFromNibNamed(NSString *name);

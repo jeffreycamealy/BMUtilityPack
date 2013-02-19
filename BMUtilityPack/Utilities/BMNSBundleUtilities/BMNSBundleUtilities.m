@@ -13,7 +13,7 @@ NSArray *arrayFromPlistNamed(NSString *name) {
     return [NSArray arrayWithContentsOfFile:path];
 }
 
-UIView *rootViewFromNibNamed(NSString *name) {
+id rootViewFromNibNamed(NSString *name) {
     NSArray *views = [[NSBundle mainBundle] loadNibNamed:name owner:nil options:nil];
     assert(views.count==1);
     return views.lastObject;
