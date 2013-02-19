@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		000B730C16D429790082E94A /* BMLaunchArgumentsSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 000B730B16D429790082E94A /* BMLaunchArgumentsSpecs.m */; };
-		000B730F16D42B660082E94A /* BMLaunchArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 000B730E16D42B660082E94A /* BMLaunchArguments.m */; };
+		000B731316D4324C0082E94A /* BMLaunchArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 000B731216D4324C0082E94A /* BMLaunchArguments.m */; };
 		001AF38E16822D74007CFF78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001AF38D16822D74007CFF78 /* UIKit.framework */; };
 		001AF39016822D74007CFF78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001AF38F16822D74007CFF78 /* Foundation.framework */; };
 		001AF39216822D74007CFF78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001AF39116822D74007CFF78 /* CoreGraphics.framework */; };
@@ -49,8 +49,8 @@
 
 /* Begin PBXFileReference section */
 		000B730B16D429790082E94A /* BMLaunchArgumentsSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMLaunchArgumentsSpecs.m; sourceTree = "<group>"; };
-		000B730D16D42B660082E94A /* BMLaunchArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMLaunchArguments.h; path = Utilities/LaunchArguments/BMLaunchArguments.h; sourceTree = "<group>"; };
-		000B730E16D42B660082E94A /* BMLaunchArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMLaunchArguments.m; path = Utilities/LaunchArguments/BMLaunchArguments.m; sourceTree = "<group>"; };
+		000B731116D4324C0082E94A /* BMLaunchArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMLaunchArguments.h; path = Utilities/BMLaunchArguments/BMLaunchArguments.h; sourceTree = "<group>"; };
+		000B731216D4324C0082E94A /* BMLaunchArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMLaunchArguments.m; path = Utilities/BMLaunchArguments/BMLaunchArguments.m; sourceTree = "<group>"; };
 		001AF38916822D74007CFF78 /* BMUtilityPack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMUtilityPack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		001AF38D16822D74007CFF78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		001AF38F16822D74007CFF78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -116,8 +116,8 @@
 		000B731016D42B6F0082E94A /* BMLaunchArguments */ = {
 			isa = PBXGroup;
 			children = (
-				000B730D16D42B660082E94A /* BMLaunchArguments.h */,
-				000B730E16D42B660082E94A /* BMLaunchArguments.m */,
+				000B731116D4324C0082E94A /* BMLaunchArguments.h */,
+				000B731216D4324C0082E94A /* BMLaunchArguments.m */,
 			);
 			name = BMLaunchArguments;
 			sourceTree = "<group>";
@@ -437,7 +437,7 @@
 				005592A1169F745800255341 /* BMNSBundleUtilities.m in Sources */,
 				00B851D516A09AE4000036F6 /* UIImageView+Utilities.m in Sources */,
 				0051E93616A39D8B00856DA7 /* UIView+FrameManipulations.m in Sources */,
-				000B730F16D42B660082E94A /* BMLaunchArguments.m in Sources */,
+				000B731316D4324C0082E94A /* BMLaunchArguments.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

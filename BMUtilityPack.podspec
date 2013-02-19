@@ -1,11 +1,14 @@
 Pod::Spec.new do |s|
+
+	version = '1.0.5'
+
 	s.name         = "BMUtilityPack"
-	s.version      = "1.0.4"
+	s.version      = version
 	s.summary      = "Useful custom objects and functions."
 	s.homepage     = "https://github.com/jeffreycamealy/BMUtilityPack.git"
 	s.license      = { :type => 'MIT', :file => 'LICENSE' }
 	s.author       = { "Jeffrey Camealy" => "jcamealy@gmail.com" }
-	s.source       = { :git => "https://github.com/jeffreycamealy/BMUtilityPack.git", :tag => "1.0.4" }
+	s.source       = { :git => "https://github.com/jeffreycamealy/BMUtilityPack.git", :tag => version }
 	s.platform     = :ios, '5.0'
 
 
@@ -15,6 +18,12 @@ Pod::Spec.new do |s|
 	source_files_path = '/*.{h,m}'
 
 	subspec_name = 'BMColors'
+	s.subspec subspec_name do |ss|
+		ss.source_files = utilities_path + subspec_name + source_files_path
+		ss.requires_arc = true
+	end
+
+	subspec_name = 'BMDebugUtilities'
 	s.subspec subspec_name do |ss|
 		ss.source_files = utilities_path + subspec_name + source_files_path
 		ss.requires_arc = true
@@ -32,7 +41,7 @@ Pod::Spec.new do |s|
 		ss.requires_arc = true
 	end
 
-	subspec_name = 'BMDebugUtilities'
+	subspec_name = 'BMLaunchArguments'
 	s.subspec subspec_name do |ss|
 		ss.source_files = utilities_path + subspec_name + source_files_path
 		ss.requires_arc = true
