@@ -16,7 +16,7 @@
 #import "BMLaunchArguments.h"
 #import "BMNSBundleUtilities.h"
 #import "BMSelectorButton.h"
-#import "UIImageView_Utilities.h"
+#import "UIImageView+Utilities.h"
 #import "UITableView+Utilities.h"
 #import "UIView+FrameManipulations.h"
 #import "VTPG_Common.h"
