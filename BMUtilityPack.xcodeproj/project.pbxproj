@@ -34,6 +34,7 @@
 		005592A0169F745800255341 /* BMDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055929B169F745800255341 /* BMDispatch.m */; };
 		005592A1169F745800255341 /* BMNSBundleUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055929D169F745800255341 /* BMNSBundleUtilities.m */; };
 		00B851D516A09AE4000036F6 /* UIImageView+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B851D416A09AE4000036F6 /* UIImageView+Utilities.m */; };
+		00D3243A1708186F008F61C6 /* VTPG_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D324391708186F008F61C6 /* VTPG_Common.m */; };
 		2118D7F64BB74868A66DEF16 /* libPods-BMUtilityPackTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6B27188A84477C875843E2 /* libPods-BMUtilityPackTests.a */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,8 @@
 		0064BD22168CE5A900CAC468 /* BMInitMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMInitMacros.h; path = Utilities/BMInitMacros/BMInitMacros.h; sourceTree = "<group>"; };
 		00B851D316A09AE4000036F6 /* UIImageView+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Utilities.h"; path = "Utilities/UIImageView+Utilities/UIImageView+Utilities.h"; sourceTree = "<group>"; };
 		00B851D416A09AE4000036F6 /* UIImageView+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Utilities.m"; path = "Utilities/UIImageView+Utilities/UIImageView+Utilities.m"; sourceTree = "<group>"; };
+		00D324381708186F008F61C6 /* VTPG_Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTPG_Common.h; path = Utilities/VTPG_Common/VTPG_Common.h; sourceTree = "<group>"; };
+		00D324391708186F008F61C6 /* VTPG_Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VTPG_Common.m; path = Utilities/VTPG_Common/VTPG_Common.m; sourceTree = "<group>"; };
 		463E6CE6CA0A4366AEA89070 /* Pods-BMUtilityPackTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMUtilityPackTests.xcconfig"; path = "Pods/Pods-BMUtilityPackTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		ED6B27188A84477C875843E2 /* libPods-BMUtilityPackTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BMUtilityPackTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -226,6 +229,7 @@
 				00B851D116A09A57000036F6 /* UIImageView+Utilities */,
 				00559292169F741B00255341 /* UITableView+Utilities */,
 				00F4991016855B0600A46D10 /* UIView+FrameManipulations */,
+				00D3243B17081874008F61C6 /* VTPG_Common */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -290,6 +294,15 @@
 				00B851D416A09AE4000036F6 /* UIImageView+Utilities.m */,
 			);
 			name = "UIImageView+Utilities";
+			sourceTree = "<group>";
+		};
+		00D3243B17081874008F61C6 /* VTPG_Common */ = {
+			isa = PBXGroup;
+			children = (
+				00D324381708186F008F61C6 /* VTPG_Common.h */,
+				00D324391708186F008F61C6 /* VTPG_Common.m */,
+			);
+			name = VTPG_Common;
 			sourceTree = "<group>";
 		};
 		00F4991016855B0600A46D10 /* UIView+FrameManipulations */ = {
@@ -438,6 +451,7 @@
 				00B851D516A09AE4000036F6 /* UIImageView+Utilities.m in Sources */,
 				0051E93616A39D8B00856DA7 /* UIView+FrameManipulations.m in Sources */,
 				000B731316D4324C0082E94A /* BMLaunchArguments.m in Sources */,
+				00D3243A1708186F008F61C6 /* VTPG_Common.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
