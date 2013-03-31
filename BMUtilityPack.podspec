@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-	version = '1.0.7'
+	version = '1.0.8'
 
 	s.name         = "BMUtilityPack"
 	s.version      = version
@@ -16,6 +16,8 @@ Pod::Spec.new do |s|
 
 	utilities_path = 'BMUtilityPack/Utilities/'
 	source_files_path = '/*.{h,m}'
+
+	s.source_files = utilities_path + 'BMUtilityPack.h'
 
 	subspec_name = 'BMColors'
 	s.subspec subspec_name do |ss|
