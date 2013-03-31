@@ -14,7 +14,7 @@
 #import "BMDispatch.h"
 #import "BMInitMacros.h"
 #import "BMLaunchArguments.h"
-#import "BMSNBundleUtilities.h"
+#import "BMNSBundleUtilities.h"
 #import "BMSelectorButton.h"
 #import "UIImageView_Utilities.h"
 #import "UITableView+Utilities.h"

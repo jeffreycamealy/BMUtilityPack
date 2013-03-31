@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-	version = '1.0.8'
+	version = '1.0.9'
 
 	s.name         = "BMUtilityPack"
 	s.version      = version
