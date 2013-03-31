@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-	version = '1.0.6'
+	version = '1.0.7'
 
 	s.name         = "BMUtilityPack"
 	s.version      = version
@@ -72,6 +72,13 @@ Pod::Spec.new do |s|
 	end
 
 	subspec_name = 'UIView+FrameManipulations'
+	s.subspec subspec_name do |ss|
+		ss.source_files = utilities_path + subspec_name + source_files_path
+		ss.requires_arc = true
+	end
+
+
+	subspec_name = 'VTPG_Common'
 	s.subspec subspec_name do |ss|
 		ss.source_files = utilities_path + subspec_name + source_files_path
 		ss.requires_arc = true
