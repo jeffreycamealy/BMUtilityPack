@@ -20,5 +20,6 @@
 #import "UITableView+Utilities.h"
 #import "UIView+FrameManipulations.h"
 #import "VTPG_Common.h"
+#import "UIAlertView+Convenience.h"
 
 #endif
