@@ -19,6 +19,6 @@
  *    }];
  *
  */
-- (void)filterWithBlock:(BOOL(^)(id obj))filterBlock;
+- (void)filterUsingBlock:(BOOL(^)(id obj))filterBlock;
 
 @end

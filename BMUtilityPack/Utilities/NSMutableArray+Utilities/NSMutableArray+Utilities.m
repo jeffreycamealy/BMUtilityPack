@@ -10,7 +10,7 @@
 
 @implementation NSMutableArray (Utilities)
 
-- (void)filterWithBlock:(BOOL(^)(id obj))filterBlock {
+- (void)filterUsingBlock:(BOOL(^)(id obj))filterBlock {
     for (id object in self) {
         if (!filterBlock(object)) {
             [self removeObject:object];
