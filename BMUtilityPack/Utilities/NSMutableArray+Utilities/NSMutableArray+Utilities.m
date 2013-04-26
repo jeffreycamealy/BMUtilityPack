@@ -11,11 +11,10 @@
 @implementation NSMutableArray (Utilities)
 
 - (void)filterUsingBlock:(BOOL(^)(id obj))filterBlock {
-    for (id object in self) {
-        if (!filterBlock(object)) {
-            [self removeObject:object];
-        }
-    }
+    NSPredicate *predicate = [NSPredicate predicateWithBlock:^BOOL(id evaluatedObject, NSDictionary *bindings) {
+        return filterBlock(evaluatedObject);
+    }];
+    [self filterUsingPredicate:predicate];
 }
 
 @end
