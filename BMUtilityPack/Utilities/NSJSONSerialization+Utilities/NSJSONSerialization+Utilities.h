@@ -10,4 +10,6 @@
 
 @interface NSJSONSerialization (Utilities)
 
++ (NSString *)jsonStringForObject:(id)object;
+
 @end

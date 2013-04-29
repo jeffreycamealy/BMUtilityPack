@@ -22,5 +22,6 @@
 #import "VTPG_Common.h"
 #import "UIAlertView+Convenience.h"
 #import "NSMutableArray+Utilities.h"
+#import "NSJSONSerialization+Utilities.h"
 
 #endif

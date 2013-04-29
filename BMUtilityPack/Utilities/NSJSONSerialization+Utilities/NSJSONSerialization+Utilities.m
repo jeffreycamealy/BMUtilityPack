@@ -10,4 +10,12 @@
 
 @implementation NSJSONSerialization (Utilities)
 
++ (NSString *)jsonStringForObject:(id)object {
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:object
+                                    options:NSJSONWritingPrettyPrinted
+                                      error:nil];
+    NSString *jsonString = [NSString.alloc initWithData:jsonData encoding:NSUTF8StringEncoding];
+    return jsonString;
+}
+
 @end
