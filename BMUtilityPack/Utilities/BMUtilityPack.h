@@ -21,6 +21,7 @@
 #import "UIView+FrameManipulations.h"
 #import "VTPG_Common.h"
 #import "UIAlertView+Convenience.h"
+#import "NSDate+Utilities.h"
 #import "NSMutableArray+Utilities.h"
 #import "NSJSONSerialization+Utilities.h"
 
