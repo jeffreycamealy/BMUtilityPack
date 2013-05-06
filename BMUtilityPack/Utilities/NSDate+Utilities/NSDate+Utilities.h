@@ -7,6 +7,11 @@
 //
 //  Date Formats are described here: http://unicode.org/reports/tr35/tr35-10.html#Date_Format_Patterns
 //
+//  Samples:
+//
+//  EEEE, MMMM d - h:mm
+//  Thursday, August 2 - 3:45
+//
 
 #import <Foundation/Foundation.h>
 
