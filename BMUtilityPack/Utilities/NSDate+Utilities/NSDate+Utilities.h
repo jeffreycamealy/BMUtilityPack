@@ -5,6 +5,8 @@
 //  Created by Jeffrey Camealy on 4/14/13.
 //  Copyright (c) 2013 Ora Interactive. All rights reserved.
 //
+//  Date Formats are described here: http://unicode.org/reports/tr35/tr35-10.html#Date_Format_Patterns
+//
 
 #import <Foundation/Foundation.h>
 
