@@ -9,8 +9,8 @@
 //
 //  Samples:
 //
-//  EEEE, MMMM d - h:mm
-//  Thursday, August 2 - 3:45
+//  EEEE, MMMM d - h:mm a
+//  Thursday, August 2 - 3:45 PM
 //
 
 #import <Foundation/Foundation.h>
