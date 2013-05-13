@@ -24,10 +24,15 @@
     return [formatter stringFromDate:self];
 }
 
-- (NSString*)stringWithFullStyle {
+- (NSString *)stringWithFullStyle {
     NSDateFormatter *dateFormatter = NSDateFormatter.new;
     dateFormatter.dateStyle = NSDateFormatterFullStyle;
     return [dateFormatter stringFromDate:self];
+}
+
+- (BOOL)isInThePast {
+    NSTimeInterval timeTillDate = [self timeIntervalSinceDate:NSDate.date];
+    return (timeTillDate < 0);
 }
 
 @end

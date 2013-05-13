@@ -20,5 +20,6 @@
 - (NSDate *)dateByStrippingTimeComponents;
 - (NSString *)stringFromDateFormat:(NSString *)dateFormat;
 - (NSString*)stringWithFullStyle;
+- (BOOL)isInThePast;
 
 @end
