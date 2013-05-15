@@ -27,7 +27,7 @@
  * creates a local "weakself" variable
  * usage: @createWeakSelf
  */
-#define createWeakSelf try {} @finally {} __weak typeof(self) weakself = self;
+#define createWeakSelf try {} @finally {} __weak typeof(self) weakSelf = self;
 
 /**
  * Creates a predicate with format
