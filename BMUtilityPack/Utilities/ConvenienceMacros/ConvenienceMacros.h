@@ -24,7 +24,7 @@
 #define local(cls, varname) cls *varname = [cls new]
 
 /**
- * creates a local "weakself" variable
+ * creates a local "weakSelf" variable
  * usage: @createWeakSelf
  */
 #define createWeakSelf try {} @finally {} __weak typeof(self) weakSelf = self;
