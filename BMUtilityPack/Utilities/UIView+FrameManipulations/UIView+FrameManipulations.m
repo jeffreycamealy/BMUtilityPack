@@ -54,6 +54,17 @@
     [self setFrameWidth:self.frame.size.width+width];
 }
 
+
+#pragma mark - Anchor
+
+- (void)normalizeForAnchorChange {
+    float changeX = self.layer.anchorPoint.x - 0.5;
+    float changeY = self.layer.anchorPoint.y - 0.5;
+    float changePointsX = self.frame.size.width * changeX;
+    float changePointsY = self.frame.size.height * changeY;
+    self.layer.position = CGPointMake(self.layer.position.x+changePointsX, self.layer.position.y+changePointsY);
+}
+
 @end
 
 
