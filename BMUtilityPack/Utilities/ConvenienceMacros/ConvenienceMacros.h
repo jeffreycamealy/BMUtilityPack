@@ -35,5 +35,18 @@
  */
 #define predicate(...) [NSPredicate predicateWithFormat:__VA_ARGS__]
 
+/**
+ * Encapsulates common `for` loop form
+ * 
+ * Usage:
+ *   for(range(i,5)) {
+ *     NSLog(@"index:%i", i);
+ *   }
+ */
+#define forRange(i, max) for (int i = 0; i < max; i++)
+
+#define pt(x, y) CGPointMake(x,y)
+
+#define inRange(num1, x, num2) (x >= num1 && x <= num2)
 
 #endif
