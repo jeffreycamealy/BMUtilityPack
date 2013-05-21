@@ -7,6 +7,7 @@
 //
 
 #import "UIView+FrameManipulations.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation UIView (FrameManipulations)
 
