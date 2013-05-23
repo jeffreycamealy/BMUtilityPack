@@ -49,4 +49,6 @@
 
 #define inRange(num1, x, num2) (x >= num1 && x <= num2)
 
+#define url(urlString) [NSURL URLWithString:urlString]
+
 #endif
