@@ -10,7 +10,7 @@
 
 NSArray *arrayFromPlistNamed(NSString *name);
 
-//
-// Function assumes there exists only 1 top level view object.
-//
+/**
+ * Function assumes there exists only 1 top level view object.
+ */
 id rootViewFromNibNamed(NSString *name);

@@ -9,6 +9,9 @@
 
 @interface BMLaunchArguments : NSObject
 
+/*
+ * Launch Arguments set in scheme can be retreived here
+ */
 + (BOOL)boolForKey:(NSString *)key;
 
 @end

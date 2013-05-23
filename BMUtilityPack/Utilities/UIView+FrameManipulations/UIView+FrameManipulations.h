@@ -20,4 +20,6 @@
 - (void)setFrameWidth:(float)width;
 - (void)offsetHeightBy:(float)height;
 - (void)offsetWidthBy:(float)width;
+
+- (void)normalizeForAnchorChange;
 @end
