@@ -26,5 +26,6 @@
 #import "NSMutableArray+Utilities.h"
 #import "NSJSONSerialization+Utilities.h"
 #import "NSDateFormatter+Utilities.h"
+#import "UIViewController+Utilities.h"
 
 #endif
