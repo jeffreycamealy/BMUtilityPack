@@ -10,7 +10,10 @@
 
 @interface UIViewController (Utilities)
 
+- (void)presentViewController:(UIViewController *)viewControllerToPresent;
 - (void)presentViewController:(UIViewController *)viewControllerToPresent animated:(BOOL)flag;
+
+- (void)dismissViewController;
 - (void)dismissViewControllerAnimated:(BOOL)flag;
 
 @end

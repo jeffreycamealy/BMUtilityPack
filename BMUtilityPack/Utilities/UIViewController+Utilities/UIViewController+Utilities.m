@@ -10,8 +10,17 @@
 
 @implementation UIViewController (Utilities)
 
+- (void)presentViewController:(UIViewController *)viewControllerToPresent {
+    [self presentViewController:viewControllerToPresent animated:YES];
+}
+
 - (void)presentViewController:(UIViewController *)viewControllerToPresent animated:(BOOL)flag {
     [self presentViewController:viewControllerToPresent animated:flag completion:nil];
+}
+
+
+- (void)dismissViewController {
+    [self dismissViewControllerAnimated:YES];
 }
 
 - (void)dismissViewControllerAnimated:(BOOL)flag {

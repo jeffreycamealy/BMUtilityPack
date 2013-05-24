@@ -14,6 +14,7 @@
 #import "BMDispatch.h"
 #import "BMInitMacros.h"
 #import "BMLaunchArguments.h"
+#import "BMLog.h"
 #import "BMNSBundleUtilities.h"
 #import "BMSelectorButton.h"
 #import "ConvenienceMacros.h"
