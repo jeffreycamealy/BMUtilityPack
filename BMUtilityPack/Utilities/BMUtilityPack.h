@@ -28,5 +28,6 @@
 #import "NSJSONSerialization+Utilities.h"
 #import "NSDateFormatter+Utilities.h"
 #import "UIViewController+Utilities.h"
+#import "UINavigationController+Utilities.h"
 
 #endif
