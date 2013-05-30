@@ -12,7 +12,7 @@ void bm_dispatch_after(double seconds, dispatch_block_t block) {
     dispatch_after(delayTime, dispatch_get_main_queue(), block);
 }
 
-void bm_execute_on_next_run_loop(dispatch_block_t block) {
+void bm_dispatch_on_next_run_loop(dispatch_block_t block) {
     bm_dispatch_after(0, block);
 }
 

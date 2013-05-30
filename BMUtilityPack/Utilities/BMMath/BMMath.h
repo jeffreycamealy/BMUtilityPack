@@ -8,5 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+@interface BMMath : NSObject
 
-NSString *bm_rand_str();
++ (NSString *)randomString;
+
+@end

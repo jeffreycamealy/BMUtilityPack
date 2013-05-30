@@ -29,5 +29,6 @@
 #import "NSDateFormatter+Utilities.h"
 #import "UIViewController+Utilities.h"
 #import "UINavigationController+Utilities.h"
+#import "BMMath.h"
 
 #endif
