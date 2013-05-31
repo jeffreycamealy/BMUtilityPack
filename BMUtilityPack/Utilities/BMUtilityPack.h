@@ -30,5 +30,6 @@
 #import "UIViewController+Utilities.h"
 #import "UINavigationController+Utilities.h"
 #import "BMMath.h"
+#import "NSString+Utilities.h"
 
 #endif
