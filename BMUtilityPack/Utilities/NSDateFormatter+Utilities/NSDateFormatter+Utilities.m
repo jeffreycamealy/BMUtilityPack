@@ -11,9 +11,15 @@
 @implementation NSDateFormatter (Utilities)
 
 + (NSDate *)dateWithCommonFormatString:(NSString *)dateString {
-    local(NSDateFormatter, formatter);
+    NSDateFormatter *formatter = NSDateFormatter.new;
     formatter.dateFormat = @"M/d/yyyy h:mm a";
     return [formatter dateFromString:dateString];
+}
+
++ (NSString *)stringFromDate:(NSDate *)date format:(NSString *)format {
+    NSDateFormatter *formatter = NSDateFormatter.new;
+    formatter.dateFormat = format;
+    return [formatter stringFromDate:date];
 }
 
 @end
