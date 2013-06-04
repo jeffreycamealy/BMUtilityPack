@@ -17,6 +17,7 @@
 #define str(...) [NSString stringWithFormat:__VA_ARGS__]
 
 #define strInt(num) str(@"%i", num)
+#define strDbl(num) str(@"%f", num)
 
 /**
  * creates a local variable named varname of type cls
