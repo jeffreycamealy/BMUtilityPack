@@ -18,6 +18,5 @@
  *
  */
 + (NSDate *)dateWithCommonFormatString:(NSString *)dateString;
-+ (NSString *)stringFromDate:(NSDate *)date format:(NSString *)format;
 
 @end
