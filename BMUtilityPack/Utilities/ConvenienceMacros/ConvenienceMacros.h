@@ -54,4 +54,6 @@
 
 #define url(urlString) [NSURL URLWithString:urlString]
 
+#define img(imgName) [UIImage imageNamed:imgName]
+
 #endif
