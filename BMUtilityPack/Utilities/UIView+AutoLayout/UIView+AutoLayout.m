@@ -29,4 +29,9 @@
                                                                    views:views]];
 }
 
+- (void)addConstraintForSubviewToFullyFillSuperview:(UIView *)subview {
+    [self addConstraintForSubview:subview visualFormat:@"H:|[view]|"];
+    [self addConstraintForSubview:subview visualFormat:@"V:|[view]|"];
+}
+
 @end

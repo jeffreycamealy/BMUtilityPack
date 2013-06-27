@@ -6,5 +6,6 @@
 
 - (void)addConstraintForSubview:(UIView *)subview visualFormat:(NSString *)format;
 - (void)addConstraintsForViews:(NSDictionary *)views visualFormat:(NSString *)format;
+- (void)addConstraintForSubviewToFullyFillSuperview:(UIView *)subview;
 
 @end
