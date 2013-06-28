@@ -34,4 +34,12 @@
     [self addConstraintForSubview:subview visualFormat:@"V:|[view]|"];
 }
 
+- (void)constrainToFillView:(UIView *)superview axis:(UILayoutConstraintAxis)axis {
+    if (axis == UILayoutConstraintAxisHorizontal) {
+        [superview addConstraintForSubview:self visualFormat:@"H:|[view]|"];
+    } else {
+        [superview addConstraintForSubview:self visualFormat:@"V:|[view]|"];
+    }
+}
+
 @end
