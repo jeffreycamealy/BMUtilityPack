@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 UIColor *grayWithValue(float value);
+UIColor *grayWithAlpha(float value, float alpha);
 UIColor *colorWithRGB(float red, float green, float blue);
 UIColor *colorWithRGBA(float red, float green, float blue, float alpha);
 UIColor *randomColor();

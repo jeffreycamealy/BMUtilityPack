@@ -12,6 +12,10 @@ UIColor *grayWithValue(float value) {
     return colorWithRGB(value, value, value);
 }
 
+UIColor *grayWithAlpha(float value, float alpha) {
+    return colorWithRGBA(value, value, value, alpha);
+}
+
 UIColor *colorWithRGB(float red, float green, float blue) {
     return [UIColor colorWithRed:red/255.0 green:green/255.0 blue:blue/255.0 alpha:1];
 }
