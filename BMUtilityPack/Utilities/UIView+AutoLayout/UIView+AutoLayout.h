@@ -9,4 +9,6 @@
 - (void)addConstraintForSubviewToFullyFillSuperview:(UIView *)subview;
 - (void)constrainToFillView:(UIView *)superview axis:(UILayoutConstraintAxis)axis;
     
+- (void)constrainToCenterInView:(UIView *)superview axis:(UILayoutConstraintAxis)axis;
+
 @end

@@ -42,4 +42,24 @@
     }
 }
 
+- (void)constrainToCenterInView:(UIView *)superview axis:(UILayoutConstraintAxis)axis {
+    if (axis == UILayoutConstraintAxisHorizontal) {
+        [superview addConstraint:[NSLayoutConstraint constraintWithItem:self
+                                                              attribute:NSLayoutAttributeCenterX
+                                                              relatedBy:NSLayoutRelationEqual
+                                                                 toItem:superview
+                                                              attribute:NSLayoutAttributeCenterX
+                                                             multiplier:1
+                                                               constant:0]];
+    } else {
+        [superview addConstraint:[NSLayoutConstraint constraintWithItem:self
+                                                              attribute:NSLayoutAttributeCenterY
+                                                              relatedBy:NSLayoutRelationEqual
+                                                                 toItem:superview
+                                                              attribute:NSLayoutAttributeCenterY
+                                                             multiplier:1
+                                                               constant:0]];
+    }
+}
+
 @end
