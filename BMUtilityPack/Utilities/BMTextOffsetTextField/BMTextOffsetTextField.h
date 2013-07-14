@@ -11,5 +11,6 @@
 @interface BMTextOffsetTextField : UITextField
 
 @property float xOffset; // Default: 10
+@property float yOffset; // Default: 10
 
 @end

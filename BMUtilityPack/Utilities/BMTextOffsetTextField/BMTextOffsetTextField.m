@@ -15,6 +15,7 @@
 - (id)init {
     if (self = [super init]) {
         _xOffset = 10;
+        _yOffset = 10;
     }
     return self;
 }
@@ -22,8 +23,8 @@
 #pragma mark - Text Offset
 
 - (CGRect)textRectForBounds:(CGRect)bounds {
-    return CGRectMake(bounds.origin.x + self.xOffset, bounds.origin.y,
-                      bounds.size.width - self.xOffset, bounds.size.height);
+    return CGRectMake(bounds.origin.x + self.xOffset, bounds.origin.y + self.yOffset,
+                      bounds.size.width - self.xOffset, bounds.size.height + self.yOffset);
 }
 
 - (CGRect)editingRectForBounds:(CGRect)bounds {
