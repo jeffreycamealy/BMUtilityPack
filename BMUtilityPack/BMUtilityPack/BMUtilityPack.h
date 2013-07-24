@@ -33,5 +33,6 @@
 #import "NSString+Utilities.h"
 #import "UIView+Utilities.h"
 #import "UIView+AutoLayout.h"
+#import "NSString+URLEncoding.h"
 
 #endif
