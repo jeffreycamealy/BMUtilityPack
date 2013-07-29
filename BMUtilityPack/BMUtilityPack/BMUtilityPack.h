@@ -34,5 +34,6 @@
 #import "UIView+Utilities.h"
 #import "UIView+AutoLayout.h"
 #import "BMTextOffsetTextField.h"
+#import "NSString+URLEncoding.h"
 
 #endif

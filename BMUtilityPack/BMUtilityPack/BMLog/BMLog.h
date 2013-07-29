@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 #define BMLog(format, ...) NSLog(format, ##__VA_ARGS__)
+#define BMLogString(logString) BMLog(@"%@", logString)
 
 #define BMLimitLog(lines, format, ...) NSLog(@"%@", \
     bm_limitStringToLines(lines, [NSString stringWithFormat:format, ##__VA_ARGS__]))

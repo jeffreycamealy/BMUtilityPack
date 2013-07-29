@@ -12,6 +12,9 @@
 //  EEEE, MMMM d - h:mm a
 //  Thursday, August 2 - 3:45 PM
 //
+//  yyyy-MM-ddThh:mm:ss
+//  2013-07-26T19:05:00
+//
 
 #import <Foundation/Foundation.h>
 
