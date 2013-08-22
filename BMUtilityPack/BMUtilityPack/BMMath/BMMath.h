@@ -11,5 +11,6 @@
 @interface BMMath : NSObject
 
 + (NSString *)randomString;
++ (NSString *)randomStringOfLength:(NSUInteger)length;
 
 @end
