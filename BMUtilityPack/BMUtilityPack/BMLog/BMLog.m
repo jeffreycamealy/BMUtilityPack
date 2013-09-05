@@ -12,5 +12,5 @@ NSString *bm_limitStringToLines(NSUInteger lines, NSString *string) {
     NSArray *stringLines = [string componentsSeparatedByCharactersInSet:NSCharacterSet.newlineCharacterSet];
     NSArray *limitedLines = [stringLines subarrayWithRange:NSMakeRange(0, lines)];
     NSString *limitedString = [limitedLines componentsJoinedByString:@"\n"];
-    return str(@"%@\n...",limitedString);
+    return [NSString stringWithFormat:@"%@\n...", limitedString];
 }
