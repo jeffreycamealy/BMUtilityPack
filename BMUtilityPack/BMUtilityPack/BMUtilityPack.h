@@ -35,5 +35,6 @@
 #import "UIView+AutoLayout.h"
 #import "BMTextOffsetTextField.h"
 #import "NSString+URLEncoding.h"
+#import "BMTouchDownScrollView.h"
 
 #endif
