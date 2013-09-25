@@ -9,7 +9,7 @@
 #import "BMHorizontalRule.h"
 
 @interface BMHorizontalRule () {
-    CGSize size;
+    NSUInteger numHRs;
 }
 @end
 
@@ -18,42 +18,23 @@
 
 #pragma mark - Init Method
 
-#pragma mark - Init Method
-
 - (id)init {
     if (self = [super init]) {
-        size = CGSizeMake(1, 0);
+        _ruleHeight = 1;
     }
     return self;
 }
-//
-//- (id)initWithColor1:(UIColor *)color1 color2:(UIColor *)color2 {
-//    if (self = [super init]) {
-//        size = CGSizeMake(1, 2);
-//        
-//        // topHR
-//        UIView *topHR = [UIView autoLayoutViewAddedToView:self];
-//        topHR.backgroundColor = color1;
-//        [self addConstraintForSubview:topHR visualFormat:@"H:|[topHR]|"];
-//        
-//        // bottomHR
-//        UIView *bottomHR = [UIView autoLayoutViewAddedToView:self];
-//        bottomHR.backgroundColor = color2;
-//        [self addConstraintForSubview:bottomHR visualFormat:@"H:|[bottomHR]|"];
-//    }
-//    return self;
-//}
 
 - (void)addColor:(UIColor *)color {
     UIView *hr = [UIView autoLayoutViewAddedToView:self];
     hr.backgroundColor = color;
     [self addConstraintForSubview:hr visualFormat:@"H:|[hr]|"];
-    [self addConstraintForSubview:hr visualFormat:str(@"V:|-%f-[hr(1)]", size.height)];
-    size = CGSizeMake(size.width, size.height+1);
+    [self addConstraintForSubview:hr visualFormat:str(@"V:|-%f-[hr(%f)]", self.ruleHeight*numHRs, self.ruleHeight)];
+    numHRs++;
 }
 
 - (CGSize)intrinsicContentSize {
-    return size;
+    return CGSizeMake(0, self.ruleHeight*numHRs);
 }
 
 @end

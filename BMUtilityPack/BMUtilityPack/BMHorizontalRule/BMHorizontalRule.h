@@ -11,6 +11,7 @@
 @interface BMHorizontalRule : UIView
 
 - (void)addColor:(UIColor *)color;
+@property float ruleHeight;
 
 @end
 
