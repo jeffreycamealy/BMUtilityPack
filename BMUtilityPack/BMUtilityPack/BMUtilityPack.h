@@ -36,5 +36,6 @@
 #import "BMTextOffsetTextField.h"
 #import "NSString+URLEncoding.h"
 #import "BMHorizontalRule.h"
+#import "BMTouchDownScrollView.h"
 
 #endif
