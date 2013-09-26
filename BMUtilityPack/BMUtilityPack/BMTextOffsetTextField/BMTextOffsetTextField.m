@@ -24,7 +24,7 @@
 
 - (CGRect)textRectForBounds:(CGRect)bounds {
     return CGRectMake(bounds.origin.x + self.xOffset, bounds.origin.y + self.yOffset,
-                      bounds.size.width - self.xOffset, bounds.size.height + self.yOffset);
+                      bounds.size.width - self.xOffset, bounds.size.height - self.yOffset);
 }
 
 - (CGRect)editingRectForBounds:(CGRect)bounds {

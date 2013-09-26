@@ -36,6 +36,13 @@
         code;                                   \
     }                                           \
     return self;                                \
+}                                               \
+                                                \
+- (id)init {                                    \
+    if (self = [super init]) {                  \
+        code;                                   \
+    }                                           \
+    return self;                                \
 }
 
 
