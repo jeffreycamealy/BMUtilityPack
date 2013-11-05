@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+#define d_to_r(num) num*M_PI/180.0
+
 @interface BMMath : NSObject
 
 + (NSString *)randomString;
