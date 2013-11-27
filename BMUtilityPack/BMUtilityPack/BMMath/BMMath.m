@@ -11,7 +11,7 @@
 @implementation BMMath
 
 + (NSString *)randomString {
-    srand(time(NULL));
+    srand((unsigned int)time(NULL));
     int randNum = rand();
     NSString *randString = [NSString stringWithFormat:@"%i", randNum % 99999];
     return randString;

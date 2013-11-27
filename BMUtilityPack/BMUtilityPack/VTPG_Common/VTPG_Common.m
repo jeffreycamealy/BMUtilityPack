@@ -28,14 +28,17 @@ static NSString* VTPGStringFromBoolOrCharValue(BOOL boolOrCharvalue) {
 	return [NSString stringWithFormat:@"'%c'", boolOrCharvalue];
 }
 
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wformat"
 static NSString *VTPGStringFromFourCharCodeOrUnsignedInt32(FourCharCode fourcc) {
 	return [NSString stringWithFormat:@"%luuu ('%lu%lu%lu%lu')",
-										fourcc,
-										(fourcc >> 24) & 0xFF,
-										(fourcc >> 16) & 0xFF,
-										(fourcc >> 8) & 0xFF,
-										fourcc & 0xFF];
+            fourcc,
+            (fourcc >> 24) & 0xFF,
+            (fourcc >> 16) & 0xFF,
+            (fourcc >> 8) & 0xFF,
+            fourcc & 0xFF];
 }
+#pragma GCC diagnostic pop
 
 static NSString *StringFromNSDecimalWithCurrentLocal(NSDecimal dcm) {
 	return NSDecimalString(&dcm, [NSLocale currentLocale]);						   
