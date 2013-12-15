@@ -37,5 +37,6 @@
 #import "NSString+URLEncoding.h"
 #import "BMHorizontalRule.h"
 #import "BMTouchDownScrollView.h"
+#import "BMStack.h"
 
 #endif
