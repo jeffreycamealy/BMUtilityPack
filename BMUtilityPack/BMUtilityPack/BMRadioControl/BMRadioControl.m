@@ -49,7 +49,7 @@
     int i = 0;
     for (UIButton *button in buttons) {
         button.tag = i++;
-        [button addTarget:self action:@selector(buttonSelected:) forControlEvents:UIControlEventTouchUpInside];
+        [button addTarget:self action:@selector(buttonSelected:) forControlEvents:UIControlEventTouchDown];
     }
 }
 

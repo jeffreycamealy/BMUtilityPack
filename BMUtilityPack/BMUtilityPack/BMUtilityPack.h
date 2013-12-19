@@ -38,5 +38,6 @@
 #import "BMHorizontalRule.h"
 #import "BMTouchDownScrollView.h"
 #import "BMStack.h"
+#import "BMRadioControl.h"
 
 #endif
